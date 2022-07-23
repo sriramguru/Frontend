@@ -1,0 +1,16 @@
+div:nth-child(n) {
+  background-color: aqua;
+  /* width: 100vw;
+  height: 100vh; */
+}
+
+div:nth-child(2n) {
+  background-color: coral;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

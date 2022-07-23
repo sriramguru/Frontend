@@ -1,0 +1,59 @@
+body {
+  margin: 20px;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 5px;
+  height: 100vh;
+  width: 80vw;
+}
+.A {
+  background-color: tomato;
+}
+
+.B {
+  background-color: brown;
+}
+
+.C {
+  background-color: black;
+}
+.D {
+  background-color: aqua;
+}
+.E {
+  background-color: green;
+  grid-row: 2/4;
+  grid-column: 2/3;
+}
+.F {
+  background-color: gray;
+  grid-row: 2/4;
+  grid-column: 3/4;
+}
+.G {
+  background-color: blue;
+  grid-row: 3/5;
+  grid-column: 1/2;
+}
+.H {
+  background-color: orange;
+  grid-row: 4/6;
+  grid-column: 2/3;
+}
+.I {
+  background-color: olive;
+  grid-row: 4/6;
+  grid-column: 3/4;
+}
+.J {
+  background-color: teal;
+  grid-row: 5/7;
+  grid-column: 1/2;
+}
+.K {
+  background-color: hotpink;
+  grid-column: 3/4;
+}

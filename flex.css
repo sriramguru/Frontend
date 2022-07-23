@@ -1,0 +1,12 @@
+.main {
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+}
+img {
+  margin: 20px;
+}

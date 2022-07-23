@@ -1,0 +1,50 @@
+.parent {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+.head {
+  height: 10%;
+  width: 100%;
+  background-color: grey;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 50%;
+}
+
+.left-box1 {
+  width: 100%;
+  height: 50%;
+  background-color: blueviolet;
+}
+
+.left-box2 {
+  width: 100%;
+  height: 50%;
+  background-color: brown;
+}
+
+.mid {
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  height: 80%;
+  width: 100%;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.footer {
+  width: 100%;
+  height: 10%;
+  background-color: black;
+}

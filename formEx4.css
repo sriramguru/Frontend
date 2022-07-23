@@ -1,0 +1,125 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(24, 173, 248);
+  width: 100vw;
+  height: 80vh;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: rgb(233, 223, 223);
+  margin-left: 20rem;
+  margin-top: 8rem;
+
+  width: 70%;
+  height: 90%;
+}
+h1 {
+  padding-top: 3rem;
+  padding-left: 1.5rem;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  font-weight: 550;
+
+  /* padding: 2rem; */
+}
+
+.first {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.second {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.third {
+  margin-left: 2rem;
+}
+
+.last {
+  display: flex;
+
+  align-items: center;
+  margin-left: 2rem;
+}
+
+#place {
+  padding: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 50rem;
+  font-size: 1.5rem;
+}
+
+#line {
+  padding: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 50rem;
+  font-size: 1.5rem;
+}
+
+#date {
+  padding: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 35rem;
+  font-size: 1.5rem;
+}
+
+#length {
+  padding: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 35rem;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+#code {
+  padding: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 15rem;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+#age {
+  padding: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 100rem;
+  font-size: 1.5rem;
+}
+
+button {
+  width: 15rem;
+  font-size: 2rem;
+  padding: 1rem;
+  color: white;
+  background-color: rgb(9, 176, 9);
+  border: 0.1rem solid green;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#offer {
+  margin-left: 5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}

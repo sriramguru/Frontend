@@ -1,0 +1,125 @@
+.parent {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 20px 100px 450px;
+  grid-gap: 10px;
+}
+
+div {
+  border-radius: 5px;
+  text-align: center;
+}
+
+.A:hover {
+  width: 150px;
+  height: 150px;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.A {
+  background-color: tomato;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  /* justify-content: center;
+  align-self: flex-end; */
+  transition: 6s;
+}
+
+.B {
+  background-color: brown;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.C {
+  background-color: black;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.D {
+  background-color: aqua;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.E {
+  background-color: green;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 11;
+  grid-column-end: 12;
+}
+.F {
+  background-color: gray;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 12;
+  grid-column-end: -1;
+}
+.G {
+  background-color: blue;
+
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.H {
+  background-color: orange;
+  grid-row-start: 3;
+  grid-row-end: -1;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  height: 110%;
+}
+.I {
+  background-color: olive;
+  grid-column-start: 6;
+  grid-column-end: 7;
+
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.J {
+  background-color: red;
+
+  grid-column-start: 12;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-content: right;
+  /* align-self: center; */
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.K {
+  background-color: palevioletred;
+  grid-column-start: 10;
+  grid-column-end: -1;
+  grid-row-start: 3;
+  grid-row-end: -1;
+  height: 110%;
+}
+.L {
+  background-color: yellowgreen;
+  /* height: 50px;
+  width: 100px; */
+  grid-column-start: 11;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-content: left;
+  /* align-self: center; */
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cruise form</title>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./formEx4.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Search Cruises</h1>
+      <form>
+        <div class="first">
+          <div class="one">
+            <label for="place">Where are you going?</label>
+            <select name="place" id="place">
+              <option value="Caribbean">Caribbean</option>
+              <option value="Mississipi">Mississipi</option>
+              <option value="Alabama">Alabama</option>
+              <option value="Alaska">Alaska</option>
+            </select>
+          </div>
+
+          <div class="two">
+            <label for="line">Which Cruise Line</label>
+            <select name="line" id="line">
+              <option value="All Cruise Lines">All Cruise Lines</option>
+              <option value="American Cruise Line">American Cruise Line</option>
+              <option value="Costa Cruise Line">Costa Cruise Line</option>
+              <option value="Disney Cruise Line">Disney Cruise Line</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="second">
+          <div class="three">
+            <label for="date">Departure date</label>
+            <select name="date" id="date">
+              <option value="All Dates">All Dates</option>
+              <option value="22/07/22">22/07/22</option>
+              <option value="23/07/22">23/07/22</option>
+              <option value="24/07/22">24/07/22</option>
+            </select>
+          </div>
+
+          <div class="four">
+            <label for="length">Cruise Length</label>
+            <select name="length" id="length">
+              <option value="All">All</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+
+          <div class="five">
+            <label for="code">U.S.Zip Code</label>
+            <input id="code" type="number" />
+          </div>
+        </div>
+
+        <div class="third">
+          <label for="age">Are any passengers 55 years or older</label>
+          <select name="age" id="age">
+            <option value="No">No</option>
+            <option value="Yes">Yes</option>
+          </select>
+        </div>
+
+        <div class="last">
+          <div><button type="submit">Search Now</button></div>
+          <div id="offer">See Exclusive Cruise Offers from Priceline</div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+.mobileView {
+  height: 400px;
+  width: 50%;
+  border: 2px solid black;
+  margin: 20px;
+}
+.firsthalf {
+  background-color: black;
+  height: 50%;
+  overflow: auto;
+  text-align: center;
+}
+
+a {
+  margin: 0px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}

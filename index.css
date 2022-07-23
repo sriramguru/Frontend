@@ -1,0 +1,27 @@
+.vl {
+  background-color: tomato;
+  width: 5px;
+  height: 500px;
+}
+.box1 {
+  height: 500px;
+  width: 70%;
+  border: 2px solid black;
+}
+.box2 {
+  height: 150px;
+  width: 150px;
+  background-color: tomato;
+}
+
+.box3 {
+  height: 150px;
+  width: 150px;
+  background-color: green;
+}
+
+.box4 {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+}

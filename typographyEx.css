@@ -1,0 +1,58 @@
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  margin: 20px;
+  /* max-width: 1140px; */
+
+  height: 100vh;
+}
+img {
+  /* height: 10%; */
+  width: 70%;
+}
+.box {
+  border: 2px solid black;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.name {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}
+
+.players {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+}
+
+.defenders {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.mid {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.attackers {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+.italic {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+ul {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}

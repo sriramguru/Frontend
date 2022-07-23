@@ -1,0 +1,22 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+
+  /* margin-top: 50px; */
+}
+
+img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.box {
+  border: 2px solid lightskyblue;
+}
+
+/* p {
+  padding: 10px;
+} */
