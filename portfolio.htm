@@ -32,7 +32,7 @@
           <ul class="navbar">
           <li><a href="#Start">Start</a></li>
           <hr class="navbar-line" />
-          <li><a href="#Resume">Resume</a></li>
+          <li><a href="#Resume" id="navbarResume" >Resume</a></li>
           <hr class="navbar-line" />
           <li><a href="#Portfolio">Portfolio</a></li>
           <hr class="navbar-line" />
@@ -58,13 +58,13 @@
         <div class="second-line">
           <div id="intro">
             <span style="font-family: 'Roboto Condensed'">Hi! I'm</span>
-            <span class="name">Sriramguru</span>
+            <span class="name" onmouseleave="mouseleave()" onmouseover="nameColorChange()">Sriramguru</span>
           </div>
           <div id="designation">Software Engineer/Web Developer</div>
 
           <div class="buttons">
             <form>
-              <button type="submit" id="resume">Go to my Resume!</button>
+              <button type="submit" id="resume" onmouseleave="mouseleaves()" onmouseover="resumeButtonClick()">Go to my Resume!</button>
               <button type="submit" id="cv">Download my CV</button>
             </form>
           </div>
@@ -299,9 +299,9 @@
           </div>
           <div class="happy-clients-tag">Look at their opinions!</div>
 
-          <div class="client-comment-parent">
+          <div class="client-comment-parent"  >
             <div class="client-comment-avatar1">
-          <div class="client-comment-box">
+          <div class="client-comment-box" onmouseover="boxColorChange()">
            <p class="client-comment"> Non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida.</p>
           </div>
           <div class="avatar-content">
@@ -481,6 +481,7 @@ State 90378, USA</div>
       </div>
     </article>
    </section>
+   <script src="./portfolio.js"></script>
   </body>
 </html>
 
